@@ -8,10 +8,10 @@ const Select = (props) => {
 		<div className='form-control'>
 			<label htmlFor={name}>{label}</label>
 			<Field as='select' id={name} name={name} {...rest}>
-				{options.map(({ label, value }, index) => {
+				{options.map(({ optionLabel, value }, index) => {
 					return (
 						<option key={index} value={value}>
-							{label}
+							{optionLabel}
 						</option>
 					);
 				})}
