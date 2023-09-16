@@ -13,7 +13,6 @@ const genderOptions = [
 const modeOfContactOtions = [
 	{ optionLabel: 'Email', value: 'email' },
 	{ optionLabel: 'Telephone', value: 'phone' },
-	{ optionLabel: 'No Contact', value: '' },
 ];
 
 const checkboxGroupOptions = [
